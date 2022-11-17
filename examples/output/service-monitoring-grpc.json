@@ -1,0 +1,14 @@
+{
+    "name": "projects/757605056668/services/hipstershop-grpc/serviceLevelObjectives/1lptFxUPTv-UIYKz0FDtMg",
+    "displayName": "99.5% - Availability of Hipstershop as measured by client RPCs (168h)",
+    "goal": 0.995,
+    "rollingPeriod": "604800s",
+    "serviceLevelIndicator": {
+        "requestBased": {
+            "goodTotalRatio": {
+                "goodServiceFilter": "metric.type=\"custom.googleapis.com/opencensus/grpc.io/client/completed_rpcs\" resource.type=\"global\" metric.labels.grpc_client_method=starts_with(hipstershop) metric.labels.grpc_client_status=one_of(\"OK\", \"CANCELLED\", \"PERMISSION_DENIED\") resource.labels.project_id=\"gplasky-canhaz-coffee\"",
+                "totalServiceFilter": "metric.type=\"custom.googleapis.com/opencensus/grpc.io/client/completed_rpcs\" resource.type=\"global\" metric.labels.grpc_client_method=starts_with(hipstershop) resource.labels.project_id=\"gplasky-canhaz-coffee\""
+            }
+        }
+    }
+}
