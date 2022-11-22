@@ -12,7 +12,7 @@ def cli(ctx, version, file, create):
     """Converts OpenSLO specs to Google Cloud Service Monitoring SLOs"""
 
     if version:
-        v = '0.1' #TODO
+        v = '0.1'  # TODO
         print(f'openslo-bridge {v}')
         sys.exit(0)
 
